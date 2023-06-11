@@ -51,17 +51,17 @@ if((key==1)||(key==2)||(key==3)){
              switch (choice)
              {
              case 1:
-                cout<<"\n your first crush name : ";cin>>sec;
+                cout<<"\n your first crush name : ";getline(cin,sec);
                 break;
             case 2:
-                cout<<"your favorite movie : ";cin>>sec;
+                cout<<"your favorite movie : ";getline(cin,sec);
                     break;
                      
             case 3:
-                cout<<"your first school name : ";cin>>sec;
+                cout<<"your first school name : ";getline(cin,sec);
                     break;
             case 4:
-            cout<<"your hobby : ";cin>>sec;
+            cout<<"your hobby : ";getline(cin,sec);
                     break;
              
              }
@@ -165,17 +165,17 @@ case 2:
             switch (choka)
              {
              case 1:
-                cout<<"\n your first crush name : ";cin>>sec1;cin.ignore();
+                cout<<"\n your first crush name : ";getline(cin,sec1);
                 break;
             case 2:
-                cout<<"your favorite movie : ";cin>>sec1;cin.ignore();
+                cout<<"your favorite movie : ";getline(cin,sec1);
                     break;
                      
             case 3:
-                cout<<"your first school name : ";cin>>sec1;cin.ignore();
+                cout<<"your first school name : ";getline(cin,sec1);
                     break;
             case 4:
-            cout<<"your hobby : ";cin>>sec1;cin.ignore();
+            cout<<"your hobby : ";getline(cin,sec1);
             break;
 
              default:
