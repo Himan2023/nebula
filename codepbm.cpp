@@ -45,8 +45,8 @@ if((key==1)||(key==2)||(key==3)){
              cout<<"2] your favorite movie : "<<endl;
              cout<<"3] your first school name :"<<endl;
              cout<<"4] your hobby :"<<endl<<endl<<endl;
-             cout<<"Enter your choice here : ";cin>>choice;cin.ignore();
-        while(1){
+             cout<<"Enter your choice here : ";
+        while(1){ cin>>choice;cin.ignore();
                 if((choice==1)||(choice==2)||(choice==3 )||(choice==4)){
              switch (choice)
              {
